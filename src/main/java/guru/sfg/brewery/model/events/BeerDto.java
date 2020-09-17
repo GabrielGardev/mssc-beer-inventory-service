@@ -1,4 +1,4 @@
-package guru.sfg.comman.events;
+package guru.sfg.brewery.model.events;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
@@ -21,7 +21,7 @@ import java.util.UUID;
 @Builder
 public class BeerDto implements Serializable  {
 
-    static final long serialVersionUID = -5815566940065181210L;
+    static final long serialVersionUID = -2018151928838596050L;
 
     @Null
     private UUID id;
@@ -52,5 +52,4 @@ public class BeerDto implements Serializable  {
     private BigDecimal price;
 
     private Integer quantityOnHand;
-
 }
